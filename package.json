@@ -13,10 +13,12 @@
   },
   "files": [
     "src",
-    "dist"
+    "dist",
+    "./index.d.ts"
   ],
   "type": "module",
   "main": "src/index.js",
+  "types": "./index.d.ts",
   "dependencies": {
     "@ipld/dag-cbor": "^9.0.6",
     "@libp2p/crypto": "^5.0.5",
@@ -43,6 +45,7 @@
     "playwright-test": "^14.1.6",
     "rimraf": "^5.0.5",
     "standard": "^17.1.0",
+    "typescript": "^5.8.3",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
   },

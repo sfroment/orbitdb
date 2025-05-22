@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outFile": "./index.d.ts",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "es2020"
+  },
+  "include": ["src/**/*.js"]
+}
